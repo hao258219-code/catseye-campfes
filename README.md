@@ -6,7 +6,7 @@
 - このリポジトリ（GitHub Pages）：LP `index.html` と申込画面 `apply.html`、画像・動画（`assets/`）
 - 申込の保存・運営管理画面・DB：今までの Sites（`https://catseye-campfes-2026-ember.hao258219.chatgpt.site`）
   - 申込画面は `apply.js` の `API` にある、このサーバーの `/api/register` へ送信する。
-  - 運営画面は `…chatgpt.site/admin`（運営だけが使う）。
+  - 運営画面は運営メンバーだけがブックマークで開く（このページからはリンクしない）。
   - Sites側では `/api/register` だけ GitHub Pages からの送信を受け付ける。旧URLの `/` と `/apply` は、このページへ転送している。
 
 ## 料金を変えるとき
