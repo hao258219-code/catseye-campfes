@@ -2,3 +2,9 @@
 
 .button{text-align:center}
 h1,h2{word-break:keep-all;overflow-wrap:anywhere}
+.sub{font-size:1.05rem;margin:28px 0 4px}
+.choice{border:0;padding:0;margin:18px 0 0}
+.choice legend{font-weight:700;margin-bottom:6px}
+.choice .check-label{margin-top:8px}
+.notice{border:1px solid #b9c7b4;background:#f3f6ec;padding:16px 18px;margin:24px 0 8px;border-radius:4px}
+.notice p{margin:0 0 10px}
