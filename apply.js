@@ -1,5 +1,5 @@
 // 申込データは運営サーバー（受付・管理画面と同じDB）へ送る
-const API='https://catseye-campfes-2026-ember.hao258219.chatgpt.site';
+const API='https://catseye-campfes.hao258219.workers.dev';
 // オートキャンプ参加者向けオープンチャットの招待URL（空なら案内を出さない）
 const OPENCHAT_URL='';
 const $=id=>document.getElementById(id),yen=n=>'¥'+n.toLocaleString('ja-JP');
