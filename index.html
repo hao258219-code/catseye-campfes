@@ -291,6 +291,18 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
 .act-photos img:first-child{animation-delay:-1.5s}.act-photos img:nth-child(2){animation-delay:4s}
 @keyframes photo-swap{0%{opacity:0;transform:scale(1.08)}12%{opacity:1}50%{opacity:1}62%{opacity:0;transform:scale(1)}100%{opacity:0;transform:scale(1)}}
 @media(prefers-reduced-motion:reduce){.act-photos img{animation:none}.act-photos img:first-child{opacity:1}}
+
+/* ブース出展（タロット） */
+.stage-program .act-booth h3{word-break:keep-all}
+.act-photos.single img{opacity:1;animation:card-breathe 9s ease-in-out infinite alternate}
+@keyframes card-breathe{from{transform:scale(1) translateY(0);filter:brightness(.95)}to{transform:scale(1.05) translateY(-6px);filter:brightness(1.08)}}
+.booth-menu{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:560px;border-top:1px solid #779080}
+.booth-menu li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:12px 4px;border-bottom:1px solid #779080;font-size:14px;color:#dfe5d8}
+.booth-menu li:nth-child(odd){padding-right:18px;border-right:1px solid #779080}.booth-menu li:nth-child(even){padding-left:18px}
+.booth-menu b{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:600;color:#e7b15c}
+.booth-note{margin-top:14px!important;font-size:13px!important;color:#c9d3c2!important}
+@media(max-width:640px){.booth-menu li{font-size:12px}.booth-menu b{font-size:19px}}
+@media(prefers-reduced-motion:reduce){.act-photos.single img{animation:none}}
 </style>
 </head>
 <body>
@@ -417,6 +429,7 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
       <article class="act"><div class="act-meta"><span>ステージパフォーマンス</span><strong>出演確定</strong></div><h3>四賀鼓龍会<br>虚空蔵太鼓</h3><p class="jp">迫力の音で<wbr>会場をひとつにする</p></article>
       <article class="act act-dj"><div class="act-meta"><span>DJブース</span><strong>出演確定</strong></div><h3>KREED</h3><div class="act-photos" role="img" aria-label="DJ KREEDの演奏の様子"><img src="assets/kreed-1.jpg" alt="" width="1200" height="900" loading="lazy"><img src="assets/kreed-2.jpg" alt="" width="570" height="426" loading="lazy"></div><p class="jp">音に身をゆだねる<wbr>夜のステージ</p></article>
       <article class="act"><div class="act-meta"><span>ステージ企画</span></div><h3>有志バンド</h3><p class="jp">生演奏とともに<wbr>フェスの夜を</p></article>
+      <article class="act act-booth"><div class="act-meta"><span>ブース出展</span><strong>出店確定</strong></div><h3>ウィンクルム<wbr>タロット</h3><div class="act-photos single" role="img" aria-label="ウィンクルムタロットのタロットカード"><img src="assets/tarot.jpg" alt="" width="960" height="720" loading="lazy"></div><p class="jp">焚火のそばで、<wbr>自分の本音と未来を<wbr>のぞいてみる</p><ul class="booth-menu"><li>1枚引き<b>500円</b></li><li>3枚引き<b>800円</b></li><li>6枚引き<b>1,000円</b></li><li>10枚引き<b>1,500円</b></li></ul><p class="booth-note">16:40〜20:30 ／ 予約不要・当日受付</p></article>
     </div>
     <p class="program-note">ステージパフォーマンス 18:05–20:15 ／ 途中休憩あり</p>
   </div>
