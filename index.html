@@ -303,6 +303,10 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
 .booth-note{margin-top:14px!important;font-size:13px!important;color:#c9d3c2!important}
 @media(max-width:640px){.booth-menu li{font-size:12px}.booth-menu b{font-size:19px}}
 @media(prefers-reduced-motion:reduce){.act-photos.single img{animation:none}}
+.booth-head{display:flex;align-items:center;gap:16px;margin-bottom:18px}.booth-head h3{margin-bottom:0!important}
+.booth-icon{flex:none;width:64px;height:64px;border-radius:50%;object-fit:cover;border:1px solid #c5b88c;animation:card-breathe 9s ease-in-out infinite alternate}
+@media(max-width:640px){.booth-icon{width:52px;height:52px}}
+@media(prefers-reduced-motion:reduce){.booth-icon{animation:none}}
 </style>
 </head>
 <body>
@@ -429,7 +433,7 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
       <article class="act"><div class="act-meta"><span>ステージパフォーマンス</span><strong>出演確定</strong></div><h3>四賀鼓龍会<br>虚空蔵太鼓</h3><p class="jp">迫力の音で<wbr>会場をひとつにする</p></article>
       <article class="act act-dj"><div class="act-meta"><span>DJブース</span><strong>出演確定</strong></div><h3>KREED</h3><div class="act-photos" role="img" aria-label="DJ KREEDの演奏の様子"><img src="assets/kreed-1.jpg" alt="" width="1200" height="900" loading="lazy"><img src="assets/kreed-2.jpg" alt="" width="570" height="426" loading="lazy"></div><p class="jp">音に身をゆだねる<wbr>夜のステージ</p></article>
       <article class="act"><div class="act-meta"><span>ステージ企画</span></div><h3>有志バンド</h3><p class="jp">生演奏とともに<wbr>フェスの夜を</p></article>
-      <article class="act act-booth"><div class="act-meta"><span>ブース出展</span><strong>出店確定</strong></div><h3>ウィンクルム<wbr>タロット</h3><div class="act-photos single" role="img" aria-label="ウィンクルムタロットのタロットカード"><img src="assets/tarot.jpg" alt="" width="960" height="720" loading="lazy"></div><p class="jp">焚火のそばで、<wbr>自分の本音と未来を<wbr>のぞいてみる</p><ul class="booth-menu"><li>1枚引き<b>500円</b></li><li>3枚引き<b>800円</b></li><li>6枚引き<b>1,000円</b></li><li>10枚引き<b>1,500円</b></li></ul><p class="booth-note">16:40〜20:30 ／ 予約不要・当日受付</p></article>
+      <article class="act act-booth"><div class="act-meta"><span>ブース出展</span><strong>出店確定</strong></div><div class="booth-head"><img class="booth-icon" src="assets/tarot.jpg" alt="" width="960" height="720" loading="lazy"><h3>ウィンクルム<wbr>タロット</h3></div><p class="jp">焚火のそばで、<wbr>自分の本音と未来を<wbr>のぞいてみる</p><p class="booth-note">16:40〜20:30 ／ 予約不要・当日受付</p></article>
     </div>
     <p class="program-note">ステージパフォーマンス 18:05–20:15 ／ 途中休憩あり</p>
   </div>
