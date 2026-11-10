@@ -307,6 +307,12 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
 .booth-icon{flex:none;width:64px;height:64px;border-radius:50%;object-fit:cover;border:1px solid #c5b88c;animation:card-breathe 9s ease-in-out infinite alternate}
 @media(max-width:640px){.booth-icon{width:52px;height:52px}}
 @media(prefers-reduced-motion:reduce){.booth-icon{animation:none}}
+.venue-map{margin-top:56px;padding:24px;background:#f7f5ed;border:1px solid #cbd0c4;border-radius:4px}
+.venue-map .subh{margin-bottom:16px}
+.venue-map a{display:block;border-radius:4px;overflow:hidden}
+.venue-map img{display:block;width:100%;height:auto}
+.map-note{margin-top:10px!important;font-size:12px;color:var(--ink-mute)}
+@media(max-width:640px){.venue-map{padding:16px;margin-top:40px}}
 </style>
 </head>
 <body>
@@ -540,7 +546,8 @@ body{background:var(--canvas);font-size:15px;letter-spacing:.04em;line-height:2}
       </div>
     </div>
 
-    <div class="board">
+    <div class="venue-map"><h3 class="subh">会場案内図</h3><a href="assets/venue-map.jpg" target="_blank" rel="noopener"><img src="assets/venue-map.jpg" alt="会場配置図：来場者入口の正面に本部・受付と飲食・物販ブース、右手にステージと観覧席・キャンプファイヤー、奥にオートキャンプ・テントエリアとトイレ・洗い場、道路を挟んだ手前にフェス参加者駐車場" width="1536" height="1024" loading="lazy"></a><p class="map-note">タップすると大きく表示されます</p></div>
+<div class="board">
       <h3>キャンプ場からのお知らせ</h3>
       <ul>
         <li>会場：信州大町チャレンジフィールド（大町市大町8293-1）</li>
